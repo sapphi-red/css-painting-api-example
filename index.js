@@ -5,5 +5,5 @@ const $url = document.getElementById("url")
 const $set = document.getElementById("set")
 
 $set.addEventListener("click", () => {
-  $display.style.setProperty("list-style-image", `url(${$url.value})`)
+  $display.style.listStyleImage = `url(${$url.value})`
 })
